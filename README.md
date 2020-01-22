@@ -1,4 +1,4 @@
-# Wasserstein GAN - Gradient Penalty (WGAN-GP) for MNIST
+### Wasserstein GAN - Gradient Penalty (WGAN-GP) for MNIST
 
 Based on this Paper : https://arxiv.org/pdf/1704.00028.pdf
 
