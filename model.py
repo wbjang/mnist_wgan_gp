@@ -11,11 +11,11 @@ class Generator(nn.Module):
         self.bn0 = nn.BatchNorm1d(d1)
         self.conv1 = nn.Conv2d(32, 128, 3, 1, 1)  # 128, 4, 4
         self.bn1 = nn.BatchNorm2d(128)
-        self.deconv2 = nn.ConvTranspose2d(128, 256, 3, 2, 1, 1)  # 128, 8, 8
+        self.deconv2 = nn.ConvTranspose2d(128, 256, 3, 2, 1, 1)  # 256, 8, 8
         self.bn2 = nn.BatchNorm2d(256)
-        self.deconv3 = nn.ConvTranspose2d(256, 512, 3, 2, 1, 1)  # 128, 16, 16
+        self.deconv3 = nn.ConvTranspose2d(256, 512, 3, 2, 1, 1)  # 512, 16, 16
         self.bn3 = nn.BatchNorm2d(512)
-        self.deconv4 = nn.ConvTranspose2d(512, 1024, 3, 2, 1, 1)  # 128, 32, 32
+        self.deconv4 = nn.ConvTranspose2d(512, 1024, 3, 2, 1, 1)  # 1024, 32, 32
         self.bn4 = nn.BatchNorm2d(1024)
         self.conv5 = nn.Conv2d(1024, 256, 3, 1, 1)
         self.bn5 = nn.BatchNorm2d(256)
