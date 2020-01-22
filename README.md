@@ -37,3 +37,7 @@ You can try different hyperparameters by
 ```
 python train.py --lr 1e-2
 ```
+
+#### Sample images
+
+[1epoch](imgs/samples0.png)
