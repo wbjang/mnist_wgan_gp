@@ -40,4 +40,7 @@ python train.py --lr 1e-2
 
 #### Sample images
 
-[1epoch](imgs/samples0.png)
+![1epoch](https://github.com/wayne1123/mnist_wgan_gp/blob/master/imgs/samples1.png)
+![10epochs](https://github.com/wayne1123/mnist_wgan_gp/blob/master/imgs/samples10.png)
+![100epochs](https://github.com/wayne1123/mnist_wgan_gp/blob/master/imgs/samples100.png)
+![200epochs](https://github.com/wayne1123/mnist_wgan_gp/blob/master/imgs/samples200.png)
