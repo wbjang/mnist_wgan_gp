@@ -15,3 +15,9 @@ However, the functions we derived from the WGAN need to meet the 1-Lipschitz con
 #### Implementation
 
 I've implemented WGAN-GP for MNIST data set using PyTorch 1.3.1. I assume that GPUs are available for this implementation and it supports multiple GPUs. You can test by changing the hyperparameters. Sample images are saved for every epoch, and model parameters and losses are recorded periodically.
+
+#### Running
+
+```
+python train.py
+```
