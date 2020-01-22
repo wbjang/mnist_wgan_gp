@@ -21,3 +21,19 @@ I've implemented WGAN-GP for MNIST data set using PyTorch 1.3.1. I assume that G
 ```
 python train.py
 ```
+
+#### Hyperparameters (defaults)
+
+lr : 1e-4 <br/>
+wd : True # linearly interpolated between 1e-4 and 0 during the training <br/>
+num_epochs : 201 <br/>
+latent_dim : 118, # latent dimension for Generator <br/>
+ratio : 5, # up to 40 epochs, # Critic is trained 5 times, while Generator is trained once. <br/>
+batch : 200, # You may reduce the batch size if there is memory error. <br/>
+cp : 0. # Checkpoint, if you train from the certain epoch, you may change this to that epoch.
+
+You can try different hyperparameters by
+
+```
+python train.py --lr 1e-2
+```
